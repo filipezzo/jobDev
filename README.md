@@ -1,29 +1,26 @@
-# React + TypeScript + Vite
+#jobDev 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A position research platform for developers.
 
-Currently, two official plugins are available:
+### 🔗  Online Project
+*  jobDev (https://job-dev.vercel.app))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️Technologies/Libs Used
 
-## Expanding the ESLint configuration
+The following technologies were used in the development of this project:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+- React 
+- Vite
+- Typescript
+- React-query
+- Tailwind
+- Lucide-icons
+- react-hot-toast
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+
+<p align="center">Made with 💙 by Filipe Avanzzo</p>
+
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
